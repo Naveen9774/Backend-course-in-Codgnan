@@ -1,0 +1,41 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.emp.Employee" table="Employee">
+        <!-- Primary Key Mapping -->
+        <id name="empId" column="emp_id">
+        </id>
+
+        <!-- Other Field Mappings -->
+        <property name="firstName">
+            <column name="first_name"/>
+        </property>
+
+        <property name="lastName">
+            <column name="last_name"/>
+        </property>
+
+        <property name="email">
+            <column name="email"/>
+        </property>
+
+        <property name="phoneNumber">
+            <column name="phone_number"/>
+        </property>
+
+        <property name="hireDate">
+            <column name="hire_date"/>
+        </property>
+
+        <property name="jobTitle">
+            <column name="job_title"/>
+        </property>
+
+        <property name="salary">
+            <column name="salary"/>
+        </property>
+
+    </class>
+</hibernate-mapping>

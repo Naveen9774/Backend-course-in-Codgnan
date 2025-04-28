@@ -1,1 +1,2 @@
-# Backend-course-in-Codgnan
+# CDDSTJava
+Learning Codes
